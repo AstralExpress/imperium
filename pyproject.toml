@@ -1,7 +1,7 @@
 [project]
 name = "imperium"
 version = "0.1.0"
-description = "Cerydra's orders"
+description = "Specifications for Pathstriders (Astral Express plugins)"
 authors = [
     {name = "SnowHawkeye"}
 ]
