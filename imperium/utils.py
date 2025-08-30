@@ -1,4 +1,4 @@
-def write_to_env(env_path, config_dict, append=True):
+def write_to_env(env_path, config_dict, append=False):
     """
     Generates a .env file by flattening the provided dictionary.
     If append is True, appends lines instead of overwriting.
