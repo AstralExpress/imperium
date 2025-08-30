@@ -6,7 +6,7 @@ PATHSTRIDER_MARKER = "pathstrider"
 
 class Pathstrider:
     @hookspec
-    def init_plugin(self, logger):
+    def init_plugin(self, logger, config):
         """Initialize plugin (prepare configs, volumes, etc.)."""
 
     @hookspec
